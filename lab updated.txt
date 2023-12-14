@@ -1,0 +1,578 @@
+Program:
+<html>
+<head>`
+<title>skct</title>
+</head>
+<body bgcolor="skyblue">
+<center>
+<h1>SRI KRISHNA COLLEGE OF TECHNOLOGY</h1>
+<br>
+<img src=" https://i.ytimg.com/vi/HeoGI6HuBdQ/maxresdefault.jpg"
+height="250px" width="400px"
+border="2-px solid black">
+<br>
+<p>Sri Krishna College of Technology abbreviated as SKCT was established in
+the year 1985.The college provides
+undergraduate and postgraduate courses such as BE/B.Tech,ME/M.Tech,MCA,
+and MBA under 7 different
+specializations.</p>
+<br><br>
+<p>Learn more about th SKCT on <a href="#">Wikipedia.</a></p>
+<br><br>
+<p>Follow us on <a href="#">Facebook</a> for more updates and news.</p>
+</center>
+</body>
+</html>
+
+Program:
+<html>
+<head><title>form</title></head>
+<body>
+<form>
+<fieldset>
+<legend>Personal Details</legend>
+<label>First name:</label>
+<input type="text" required="Please fill out this field."><br><br>
+<label>Last name:</label>
+<input type="text" required="Please fill out this field."><br><br>
+<label>Gender:</label>
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female
+<br><br>
+<label>Email:</label>
+<input type="email" required="Please fill out this field."><br><br>
+<label>Date of Birth:</label>
+<input type="date"><br>
+<label>Address:</label><br>
+<textarea></textarea><br><br>
+<input type="submit">
+</fieldset>
+</form>
+</body>
+</html>
+
+Program:
+<html>
+<head>
+<title>table</title>
+</head>
+<body>
+<br>
+<table border="2">
+<tr>
+<th colspan="6">Time Table</th>
+</tr>
+<tr>
+<th rowspan="6">Hours</th>
+<th>Mon</th>
+<th>Tue</th>
+<th>Wed</th>
+<th>Thu</th>
+<th>Fri</th>
+</tr>
+<tr>
+<td>C programming</td>
+<td>java programming</td>
+<td>Python programming</td>
+<td>ADP</td>
+<td>Problem solving using C++</td>
+</tr>
+<tr>
+<td>Linux</td>
+<td>Shell Script</td>
+<td>Type Script</td>
+<td>C programming</td>
+<td>java programming</td>
+</tr>
+<tr>
+<th colspan="5">LUNCH</th>
+</tr>
+<tr>
+<td>C++</td>
+<td>C# programming</td>
+<td>C programming</td>
+<td>Problem solving in C++</td>
+<td rowspan="2">ADP</td>
+</tr>
+<tr>
+<td>Shell Script</td>
+<td>Python programming</td>
+<td>C++Lab</td>
+<td>Java programming</td>
+</tr>
+</table>
+</body>
+</html>
+
+Program:
+<html>
+<head>
+<title>
+list
+</title>
+</head>
+<body>
+<h1>Nested List</h1>
+<ol style="list-style-type: upper-roman">
+<li>Background Skills</li>
+<ol style="list-style-type: upper-alpha">
+<li>Unix Commands</li>
+<li>Vim Test Editors</li>
+</ol>
+<li>HTML</li>
+<ol style="list-style-type: upper-alpha">
+<li>Minimal Page</li>
+<li>Headings</li>
+<li>Elements</li>
+<li>Lists</li>
+<ol style="list-style-type: lower-roman">
+<li>Unordered</li>
+<li>Ordered</li>
+<li>Definition</li>
+<li>Nested</li>
+</ol>
+<li>Links</li>
+<ol style="list-style-type: lower-roman">
+<li>Absolute</li>
+<li>Relative</li>
+</ol>
+<li>Images</li>
+</ol>
+<li>CSS</li>
+<ol style="list-style-type: upper-alpha">
+<li>Anatomy</li>
+<li>Basic Selectors</li>
+<ol style="list-style-type: lower-roman">
+<li>Element</li>
+<li>Class</li>
+<li>Id</li>
+<li>Group</li>
+</ol>
+<li>The DOM</li>
+<li>Advanced Selectors</li>
+<li>Box Model</li>
+</ol>
+<li>Programming</li>
+
+<ol style="list-style-type: upper-alpha">
+<li>Python</li>
+<li>JavaScript</li>
+</ol>
+<li>Database</li>
+<ol style="list-style-type: upper-alpha">
+<li>Flat File</li>
+<li>Relational</li>
+</ol>
+</ol>
+</body>
+</html>
+
+Program:
+<html>
+<head>
+<title>Skct navbar</title>
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<script
+src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+<script
+src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script
+>
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></
+script>
+</head>
+<body>
+<nav class="navbar navbar-expand-md bg-light navbar-light">
+<a class="navbar-brand" href="#" ><img src="https://encryptedtbn0.gstatic.com/images?q=tbn:ANd9GcTUIf2Yg8MidLpZNObK7L4A2GVYnEtQpswvA&usqp=CAU" height="80" width="300"></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" datatarget="#collapsiblenavbar">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="collapsiblenavbar" >
+<ul class="navbar-nav">
+<li class="nav-item"><a class="nav-link" href="#"> Home</a></li>
+<li class="nav-item"><a class="nav-link" href="#">About</a></li>
+<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+</ul>
+</div>
+</nav>
+<h1>Sri Krishna College of Technology</h1>
+<br>
+<p>Nestled at the foothills of the Western Ghats, located in a sprawling 52-acre
+campus in Kovaipudur, Coimbatore, Sri Krishna College of Technology(SKCT) is a
+vibrant institute of higher
+education established in 1985 promoted by Sri Krishna Institutions.</p><br>
+<p>An extraordinary freedom of opportunity--to explore, to collaborate and to
+challenge oneself is the hallmark of the Institute.</p><br>
+<p>The college offers 11 undergraduate programmes and 6 postgraduate
+programmes in engineering,technology, andn Management Studies.</p>
+</body>
+</html>
+
+Program:
+<html >
+<head>
+<title>Bootstrap Example</title>
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+<script
+src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<style type="text/css">
+.a1
+{
+width: 100%;
+height: 150px;
+}
+</style>
+</head>
+<body>
+<section>
+<div class="jumbotron text-center">
+<h1>SRI KRISHNA COLLEGE OF TECHNOLOGY</h1>
+<p>52-acre campus in Kovaipudur, Coimbatore</p>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-sm-4">
+<h3>About</h3>
+<p>To be recognized as centre of excellence in science, engineering and technology
+through effective teaching and learning processes by providing a conducive learning
+environment.</p>
+</div>
+<div class="col-sm-4">
+<h3>Photos</h3>
+<img src="https://i.ytimg.com/vi/1Qzr8jDWRVM/maxresdefault.jpg" class="img imgfluid a1">
+</div>
+<div class="col-sm-4">
+<h3>Videos</h3>
+<iframe src="https://www.youtube.com/embed/1Qzr8jDWRVM" class="a1"></iframe>
+</div>
+</div>
+</div>
+</section>
+</body>
+</html>
+
+Program:
+<html>
+<head>
+<title>background</title>
+<style>
+*
+{
+text-align: center;
+margin-top: 100px;
+}
+</style>
+<script>
+function red()
+{
+document.getElementById('bg').style.backgroundColor="red";
+}
+function green()
+{
+document.getElementById('bg').style.backgroundColor="green";
+}
+function blue()
+{
+document.getElementById('bg').style.backgroundColor="blue";
+}
+</script>
+</head>
+<body id="bg">
+<button onclick="red();">Red</button>
+<button onclick="green();">Green</button>
+<button onclick="blue();">Blue</button>
+</body>
+</html>
+
+Program:
+<html>
+<head>
+<title>primenumber</title>
+<script>
+function check()
+{
+var a=document.getElementById("cs").value;
+var c=0;
+num=parseInt(a);
+for(var i=1;i<=num;i++)
+{
+if(num%i==0)
+{
+c+=1;
+}
+}
+if(c==2)
+{
+document.write(a," is a prime number");
+}
+else
+{
+document.write(a," is not a prime number");
+}
+}
+</script>
+</head>
+<body>
+<h1>Prime Number Checker</h1>
+<label>Enter a number:</label><br><br>
+<input type="number" id="cs"><br><br>
+<button onclick="check();">Check Prime</button>
+</body>
+</html>
+
+Program:
+<html>
+<head>
+<title>jqeury</title>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+<h1>Check adult or not using Jquery</h1><br>
+<label>Enter Age:</label><br><br>
+<input type="number" id="cs"><br><br>
+<button id="mybutton">Submit</button>
+<script>
+$('#mybutton').click(function()
+{
+var a=document.getElementById("cs").value;
+age=parseInt(a);
+if(age<18)
+alert(a+" is child");
+else
+alert(a+" is adult");
+});
+</script>
+</body>
+</html>
+
+Program:
+<html>
+<head>
+<title>Chessboard</title>
+<style>
+.r1 {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+height: 500px;
+width: 500px;
+border: 1px solid grey;
+}
+.black {
+background-color: black;
+border: 1px solid black
+}
+.white {
+background-color: white;
+border: 1px solid black
+}
+</style>
+</head>
+<body>
+<section class="r1">
+<div class=black></div>
+<div class=white></div>
+<div class=black></div>
+<div class=white></div>
+<div class=black></div>
+<div class=white></div>
+<div class=black></div>
+<div class=white></div>
+<div class=white></div>
+<div class=black></div>
+<div class=white></div>
+<div class=black></div>
+<div class=white></div>
+<div class=black></div>
+<div class=white></div>
+<div class=black></div>
+<div class=black></div>
+<div class=white></div>
+<div class=black></div>
+<div class=white></div>
+<div class=black></div>
+<div class=white></div>
+<div class=black></div>
+<div class=white></div>
+
+<div class=white></div>
+<div class=black></div>
+<div class=white></div>
+<div class=black></div>
+<div class=white></div>
+<div class=black></div>
+<div class=white></div>
+<div class=black></div>
+<div class=black></div>
+<div class=white></div>
+<div class=black></div>
+<div class=white></div>
+<div class=black></div>
+<div class=white></div>
+<div class=black></div>
+<div class=white></div>
+<div class=white></div>
+<div class=black></div>
+<div class=white></div>
+<div class=black></div>
+<div class=white></div>
+<div class=black></div>
+<div class=white></div>
+<div class=black></div>
+<div class=black></div>
+<div class=white></div>
+<div class=black></div>
+<div class=white></div>
+<div class=black></div>
+<div class=white></div>
+<div class=black></div>
+<div class=white></div>
+<div class=white></div>
+<div class=black></div>
+<div class=white></div>
+<div class=black></div>
+<div class=white></div>
+<div class=black></div>
+<div class=white></div>
+<div class=black></div>
+</section>
+</body>
+</html>
+
+Program:
+<html>
+<head>
+<style>
+.a {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+.e {
+display: grid;
+grid-template-columns: 1fr;
+}
+.f {
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+.b {
+color: white;
+padding: 20px;
+background-color: blue;
+text-align: center;
+margin-left: 10px;
+}
+.r {
+color: white;
+padding: 20px;
+background-color: red;
+text-align: center;
+margin-left: 10px;
+}
+.g {
+color: white;
+padding: 20px;
+background-color: green;
+text-align: center;
+margin-left: 10px;
+}
+</style>
+</head>
+<body>
+<section class="a">
+<div class="b">
+<p>Box 1</p>
+</div>
+<div class="r">
+
+<p>Box 2</p>
+</div>
+<div class="g">
+<p>Box 3</p>
+</div>
+</section>
+<br><br>
+<section class="e">
+<div class="b">
+<p>Box 4</p>
+</div>
+</section>
+<br><br>
+<section class="f">
+<div class="g">
+<p>Box 5</p>
+</div>
+<div class="b">
+<p>Box 6</p>
+</div>
+</section>
+</body>
+</html>
+
+Program:
+<html>
+<head>
+<title>border</title>
+<style>
+*
+{
+background-color: gray;
+height: 40px;
+width: 100%;
+text-align: center;
+}
+.a
+{
+border: 3px dashed red;
+background-color: white;
+color: green;
+font-family: Sans-Serif;
+}
+.b
+{
+border: 3px double skyblue;
+background-color: white;
+color: red;
+font-family: Monospace;
+}
+.c
+{
+border: 3px solid green;
+border-radius: 10px;
+color: blue;
+font-family: cursive;
+background-color: white;
+}
+.d
+{
+border: 3px groove violet;
+background-color: white;
+color: orange;
+font-family: impact;
+}
+.e{
+border: 3px inset orange;
+background-color: white;
+color: palegreen;
+font-family: "Comic Sans MS";
+}
+</style>
+</head>
+<body>
+
+<center>
+<br><br>
+<p class="a">Dashed Border- sans-serif - Green color</p>
+<p class="b">Double Border-monospace- Red color</p>
+<p class="c">Rounded Border - curisve - Blue color</p>
+<p class="d">Groove Border - Impact - Orange color</p>
+<p class="e">Inset Border - Comic Sans MS - Palegreen color</p>
+</center>
+</body>
+</html>
+
+
